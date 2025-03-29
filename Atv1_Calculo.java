@@ -16,20 +16,22 @@ public class Atv1_Calculo {
 
         double maior;
 
+      
         if (num1 > num2) { 
             maior = num1;
         } else {
             maior = num2;
         }
    
+     
         if (maior < num3) {
-           maior = num3;
+            maior = num3;
         }
         System.out.printf("\n O maior dos números é: %.2f", maior);
 
-        double menor;
+        double menor; 
 
-        if (num1 < num2) {
+        if (num1 < num2) { 
             menor = num1;
         } else {
             menor = num2;
@@ -43,7 +45,5 @@ public class Atv1_Calculo {
         System.out.printf("\n A média dos números é: %.2f", media);
 
         sc.close();
-
     }
-
 } 
